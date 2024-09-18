@@ -27,6 +27,9 @@ const App: Component = () => {
       class="container w-full max-w-md mx-auto p-4 flex flex-col gap-4"
       dir="rtl"
     >
+      <h1 class="text-center text-2xl text-medium mb-4">
+        أحسن الخطوات في مراجعة القراءات
+      </h1>
       <form class="flex items-center gap-2" onsubmit={handleAddRawi}>
         <TextFieldRoot class="w-full">
           <TextField
